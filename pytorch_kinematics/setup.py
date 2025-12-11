@@ -10,8 +10,8 @@ setup(
     author_email='zhsh@umich.edu',
     description='Robot kinematics implemented in pytorch',
     install_requires=[
-        'torch',
-        'numpy',
+#        'torch',
+#        'numpy',
         'transformations',
         'absl-py'
     ],

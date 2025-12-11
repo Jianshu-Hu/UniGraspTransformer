@@ -29,8 +29,8 @@ from pytorch3d.transforms import euler_angles_to_matrix
 
 # locate SupDexGrasp folder
 BASE_DIR = osp.dirname(osp.dirname(osp.dirname(osp.realpath(__file__))))
-LOG_DIR = osp.join(osp.dirname(BASE_DIR), 'Logs')
-ASSET_DIR = osp.join(osp.dirname(BASE_DIR), 'Assets')
+LOG_DIR = osp.join(BASE_DIR, 'Logs')
+ASSET_DIR = osp.join(BASE_DIR, 'Assets')
 print('================ Run ================')
 print('BASE_DIR', BASE_DIR)
 print('LOG_DIR:', LOG_DIR)

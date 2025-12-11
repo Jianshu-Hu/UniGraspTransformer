@@ -15,11 +15,11 @@ root_dir = os.path.dirname(os.path.realpath(__file__))
 INSTALL_REQUIRES = [
     # RL
     "gym",
-    "torch==1.13",
-    "torchvision==0.14",
-    "torchaudio==0.13",
-    "matplotlib==3.5.1",
-    "numpy==1.23.5",
+#    "torch==1.13",
+#    "torchvision==0.14",
+#    "torchaudio==0.13",
+#    "matplotlib==3.5.1",
+#    "numpy==1.23.5",
     "tb-nightly",
     "tqdm",
     "ipdb",
