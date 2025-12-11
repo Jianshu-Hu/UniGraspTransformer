@@ -16,4 +16,6 @@ test/
 wandb
 PCA/
 
+outputs
+run_experiments
 
